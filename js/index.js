@@ -1,8 +1,7 @@
 // Prevent us from attempting to use variables
 // that are not declared
 "use strict"
-/*
-Simple for Loop: for (initialization; condition; increment/decrement) {
+/* Simple for Loop: for (initialization; condition; increment/decrement) {
     // logic
 }
 */
@@ -13,18 +12,18 @@ for (let i = 0; i < 5; i++) {
 
 /* While Loop */
 
-let i = 0;
-while (i < 5) {
-    console.log(i);
-    i++;
+let a = 0;
+while (a < 5) {
+    console.log(a);
+    a++;
 }   
 
 /* do ....while Loop */
-let i = 0;
+let b = 0;
 do {
-    console.log(i);
-    i++;
-} while (i < 5);
+    console.log(b);
+    b++;
+} while (b < 5);
 
 /* break statement:  example iterates through the elements in an array until it finds the index of an element whose value is theValue */
 
